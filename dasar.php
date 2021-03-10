@@ -2,16 +2,6 @@
     //$contoh_str = "Haloooo";
     //$contoh_int = 1;
     //$contoh_double = 1.1;
-?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Malam Rabu Bersama PemroWeb</title>
-</head>
-<body>
-    <?php for ($i = 0; $i<count($array); $i++){
-    echo $array[$i] ?>
 
 //$str_satu = "Pemrograman";
 //$str_dua = " Website";
@@ -23,10 +13,11 @@ $array = ["Pemrograman","Website","Kelas B","Hehehe"];
 //ada batas atas, batas pengulangan, sama increment
 for ($i = 0; $i<count($array); $i++){
     echo $array[$i]
-    ?>
-</body>
-</html>
-  
-}
-//bernilai sama / true
-//bernilai tidak sama / false (digunakan juga untuk mengecek tipe datanya apakah sama atau tidak)
+?>
+
+nampilkan rray digunakan operasi foreach
+<? foreach ($students as $student) : ?>
+
+switch itu sama dengan if, tapi perbedaannya di ekspresi
+
+
